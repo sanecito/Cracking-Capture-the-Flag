@@ -1,0 +1,19 @@
+Looking at the page source we can see that:
+
+<div id="content">
+There is nothing on this page
+<img src="files/pixel.png">
+</div>
+</body></html>
+
+Which is clearly a lie in so far as there is something on the page. Clicking the source image gives us:
+http://natas2.natas.labs.overthewire.org/files/pixel.png
+
+However, this is not useful. We can see however, there might be other files hosted and indeed, we can see a users.txt file containing what we need to access the next level:
+# username:password
+alice:BYNdCesZqW
+bob:jw2ueICLvT
+charlie:G5vCxkVV3m
+natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+eve:zo4mJWyNj2
+mallory:9urtcpzBmH
