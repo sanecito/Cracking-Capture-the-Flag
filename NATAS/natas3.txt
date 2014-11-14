@@ -1,0 +1,21 @@
+Looking at the page source we can see:
+<div id="content">
+There is nothing on this page
+<!-- No more information leaks!! Not even Google will find it this time... -->
+</div>
+
+Which having dealt with private tracker based torrent sites, this seemed to suggest a use of robots.txt. And indeed, there is a
+http://natas3.natas.labs.overthewire.org/robots.txt
+
+Looking at it we see:
+User-agent: *
+Disallow: /s3cr3t/
+
+which means that the /s3cr3t/ part of the server is not viewable by robots, and since Google can't 'find it this time' due to this, we can dig deeper to
+http://natas3.natas.labs.overthewire.org/s3cr3t/
+
+which yields a users.txt
+
+with
+
+natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
