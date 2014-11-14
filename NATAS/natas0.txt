@@ -1,0 +1,6 @@
+View page source via respective methods in a browser:
+<div id="content">
+You can find the password for the next level on this page.
+
+<!--The password for natas1 is gtVrDuiDfck831PqWsLEZy5gyDz1clto -->
+</div>
