@@ -1,0 +1,13 @@
+When visiting we get the message:
+
+Access disallowed. You are visiting from "" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/" 
+
+In webmaster and SNS jargon, there is what is known as a referrer which basically tells the site you're visiting where you came from (e.g. a link from so and so on Facebook).
+
+Googling: "chrome spoof referrer" brings up a handy extension that allows you to spoof where you're coming from:
+
+https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin?hl=en
+
+Which in turn allows:
+
+Access granted. The password for natas5 is iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq 
